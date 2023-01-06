@@ -1,0 +1,45 @@
+.zen-coupons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.zen-coupons svg.coupon-image {
+    width: 1.9rem;
+    height: 100%;
+    display: block;
+}
+.zen-coupon {
+    display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    align-items: center;
+    margin-bottom: 10px;
+    background: #f4f4f4;
+    padding: 15px;
+    border: solid 2px #44874a;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.zen-coupons .coupon-details {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px 0px 0px 10px;
+}
+.zen-coupons .coupon-details span{
+    color: #44874a;
+    font-weight: 700;
+    font-size: 16px;
+}
+@media(max-width: 1224px){
+    .zen-coupons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width: 767px){
+    .zen-coupons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,2 +1,2 @@
 # MainStreetSoftware
-Product Update Service
+Product Update Service Code
